@@ -682,8 +682,8 @@
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = (
@@ -719,8 +719,8 @@
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = (
@@ -830,9 +830,9 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = vorbis;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
 				ZERO_LINK = YES;
 			};
@@ -854,9 +854,9 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = vorbis;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
 				ZERO_LINK = NO;
 			};
@@ -878,7 +878,9 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = vorbisenc;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -897,7 +899,9 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = vorbisenc;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -917,8 +921,9 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = vorbisfile;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -937,8 +942,9 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = vorbisfile;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				ZERO_LINK = NO;
 			};
 			name = Release;
